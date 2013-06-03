@@ -2,8 +2,8 @@
 
 angular.module('scorerApp')
   .directive('heatOverview', () ->
-    template: '<div></div>'
+    templateUrl: '/views/heatOverview.html'
     restrict: 'E'
     link: (scope, element, attrs) ->
-      element.text 'this is the heatOverview directive'
+      console.log 'link foo'
   )
