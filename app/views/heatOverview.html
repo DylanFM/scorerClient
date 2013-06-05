@@ -1,6 +1,6 @@
 <table>
   <tbody>
-    <tr ng-repeat="surfer in surfers">
+    <tr ng-repeat="surfer in heat.contestants">
       <th scope="row">{{surfer.name}}</th>
       <td ng-repeat="wave in surfer.waves">{{wave.user}} ({{wave.official}})</td>
     </tr>
